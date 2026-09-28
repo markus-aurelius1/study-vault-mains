@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "mains-topic-v1",
+  "digest": "9285e67c6af7fa8e72722b8b057de5705d6e9d6e6b9f589412ceee8f428b447b",
+  "papers": [
+    {
+      "id": "GS1",
+      "label": "GS-I",
+      "topics": []
+    },
+    {
+      "id": "GS2",
+      "label": "GS-II",
+      "topics": [
+        {
+          "id": "gs2-polity-parliamentary-committees",
+          "title": "Parliamentary Committees",
+          "paper": "GS2",
+          "node_type": "core",
+          "syllabus": "gs2-polity-parliament-state-legislatures",
+          "pyqCount": 4,
+          "demandCount": 6,
+          "href": "/topic/gs2-polity-parliamentary-committees"
+        }
+      ]
+    },
+    {
+      "id": "GS3",
+      "label": "GS-III",
+      "topics": []
+    },
+    {
+      "id": "GS4",
+      "label": "GS-IV",
+      "topics": []
+    },
+    {
+      "id": "ESSAY",
+      "label": "Essay",
+      "topics": []
+    },
+    {
+      "id": "SOC1",
+      "label": "Sociology-I",
+      "topics": []
+    },
+    {
+      "id": "SOC2",
+      "label": "Sociology-II",
+      "topics": []
+    }
+  ],
+  "topics": [
+    {
+      "id": "gs2-polity-parliamentary-committees",
+      "title": "Parliamentary Committees",
+      "paper": "GS2",
+      "node_type": "core",
+      "syllabus": "gs2-polity-parliament-state-legislatures",
+      "pyqCount": 4,
+      "demandCount": 6,
+      "href": "/topic/gs2-polity-parliamentary-committees"
+    }
+  ]
+}

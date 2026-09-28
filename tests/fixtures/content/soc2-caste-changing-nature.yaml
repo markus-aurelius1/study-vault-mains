@@ -1,0 +1,34 @@
+schema: mains-topic-v1
+id: soc2-caste-changing-nature
+title: Changing Nature of Caste
+paper: SOC2
+optional_id: sociology
+node_type: synthesis
+syllabus: { primary: soc2-placeholder, secondary: [] }
+scope:
+  includes: [transformation of caste]
+  excludes: [complete Core Topic treatments]
+  cross_links: []
+thesis: Caste is transformed through altered mechanisms rather than linear disappearance.
+pyqs: []
+demands: []
+concepts: []
+arguments: []
+imports:
+  - ref: soc2-caste-occupation#occupational-deinstitutionalisation
+    priority: A
+thinker_refs: []
+evidence_refs: []
+visual_refs: []
+framework_refs: []
+analytical_views: []
+answer_shells: []
+intro_anchors: []
+conclusion_anchors: []
+future_variants: []
+recall:
+  summary: { argument_refs: [], evidence_refs: [], visual_refs: [] }
+  prompts: []
+deep_sections: []
+sources: []
+meta: { status: fixture, version: 1, last_academic_review: 2026-09-28 }

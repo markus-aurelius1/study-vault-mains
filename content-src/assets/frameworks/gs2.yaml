@@ -1,0 +1,10 @@
+- id: fw-institution-effectiveness
+  title: Mandate → Capacity → Use → Follow-through
+  type: institutional-lens
+  prompts:
+    - What formal mandate exists?
+    - Does the institution have enough expertise and continuity?
+    - Is the mechanism actually used?
+    - Are recommendations acted upon?
+  use_when: [institutional effectiveness, parliamentary scrutiny]
+  avoid_when: [purely descriptive classification]

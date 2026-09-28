@@ -1,0 +1,57 @@
+{
+  "topicToPyqs": {
+    "gs2-polity-parliamentary-committees": [
+      "GS2-63",
+      "GS2-64",
+      "GS2-69",
+      "GS2-73"
+    ]
+  },
+  "pyqToTopics": {
+    "GS2-63": [
+      "gs2-polity-parliamentary-committees"
+    ],
+    "GS2-64": [
+      "gs2-polity-parliamentary-committees"
+    ],
+    "GS2-69": [
+      "gs2-polity-parliamentary-committees"
+    ],
+    "GS2-73": [
+      "gs2-polity-parliamentary-committees"
+    ]
+  },
+  "topicToDemands": {
+    "gs2-polity-parliamentary-committees": [
+      "gs2-polity-parliamentary-committees#structure",
+      "gs2-polity-parliamentary-committees#utility",
+      "gs2-polity-parliamentary-committees#executive-accountability",
+      "gs2-polity-parliamentary-committees#financial-control",
+      "gs2-polity-parliamentary-committees#effectiveness",
+      "gs2-polity-parliamentary-committees#institutionalisation"
+    ]
+  },
+  "topicToArguments": {
+    "gs2-polity-parliamentary-committees": [
+      "gs2-polity-parliamentary-committees#standing-ad-hoc",
+      "gs2-polity-parliamentary-committees#specialised-scrutiny",
+      "gs2-polity-parliamentary-committees#specialisation",
+      "gs2-polity-parliamentary-committees#executive-accountability",
+      "gs2-polity-parliamentary-committees#financial-control",
+      "gs2-polity-parliamentary-committees#financial-committee-distinction",
+      "gs2-polity-parliamentary-committees#deliberative-space",
+      "gs2-polity-parliamentary-committees#expert-input",
+      "gs2-polity-parliamentary-committees#burden-sharing",
+      "gs2-polity-parliamentary-committees#low-referral",
+      "gs2-polity-parliamentary-committees#short-tenure",
+      "gs2-polity-parliamentary-committees#research-deficit",
+      "gs2-polity-parliamentary-committees#advisory-character",
+      "gs2-polity-parliamentary-committees#weak-follow-through",
+      "gs2-polity-parliamentary-committees#mandatory-referral",
+      "gs2-polity-parliamentary-committees#research-support"
+    ]
+  },
+  "topicToRelated": {
+    "gs2-polity-parliamentary-committees": []
+  }
+}

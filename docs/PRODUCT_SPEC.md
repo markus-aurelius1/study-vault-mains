@@ -384,13 +384,19 @@ No arbitrary mastery percentage.
 ### Stable requires
 
 Recall:
-- two successful Recall sessions;
-- on separate dates;
-- at least one ≥7 days after initial study.
+- every Priority-A prompt has Good/Easy successes on at least two distinct days;
+- at least one successful day for every Priority-A prompt is ≥7 days after
+  the Topic's initial study date;
+- Again and Hard do not count as successful retrievals.
 
 Application:
-- at least one timed answer or two serious outlines;
-- across different Demand Clusters where possible.
+- at least one timed answer;
+- at least two serious attempts in total;
+- attempts cover at least `min(2, numberOfDemandClusters)` distinct Demand
+  Clusters where available.
+
+Two serious outlines without a timed answer may make the Topic Applied, but
+cannot make Application Stable.
 
 Weakness:
 - no unresolved high-severity recurring weakness.

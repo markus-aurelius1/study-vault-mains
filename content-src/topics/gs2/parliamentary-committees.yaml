@@ -1,0 +1,315 @@
+schema: mains-topic-v1
+id: gs2-polity-parliamentary-committees
+title: Parliamentary Committees
+paper: GS2
+optional_id: null
+node_type: core
+
+syllabus:
+  primary: gs2-polity-parliament-state-legislatures
+  secondary: [gs2-governance-accountability]
+
+scope:
+  includes:
+    - committee system
+    - department-related standing committees
+    - financial committees
+    - legislative scrutiny
+    - executive accountability
+    - committee effectiveness
+    - committee reform
+  excludes: [Speaker, anti-defection, parliamentary privileges, bicameralism]
+  cross_links: []
+
+thesis: >
+  Parliamentary committees convert episodic floor accountability into
+  continuous, specialised and relatively deliberative scrutiny of legislation,
+  expenditure and administration.
+
+pyqs:
+  - id: GS2-63
+    role: primary
+    demand_refs: [executive-accountability, financial-control]
+  - id: GS2-64
+    role: primary
+    demand_refs: [utility, financial-control]
+  - id: GS2-69
+    role: primary
+    demand_refs: [executive-accountability, effectiveness]
+  - id: GS2-73
+    role: primary
+    demand_refs: [structure, financial-control, institutionalisation]
+
+demands:
+  - id: structure
+    label: Structure of the committee system
+    directives: [explain]
+    argument_refs:
+      core: [standing-ad-hoc, financial-committee-distinction]
+      supporting: []
+      critique: []
+  - id: utility
+    label: Why committees are useful
+    directives: [discuss, examine]
+    argument_refs:
+      core: [specialised-scrutiny, specialisation, executive-accountability, deliberative-space]
+      supporting: [expert-input]
+      critique: []
+  - id: executive-accountability
+    label: Executive accountability
+    directives: [discuss, evaluate]
+    argument_refs:
+      core: [executive-accountability, specialised-scrutiny]
+      supporting: []
+      critique: [advisory-character, weak-follow-through]
+  - id: financial-control
+    label: Financial control
+    directives: [discuss, explain]
+    argument_refs:
+      core: [financial-control, financial-committee-distinction]
+      supporting: []
+      critique: []
+  - id: effectiveness
+    label: Effectiveness of committees
+    directives: [evaluate, critically-examine]
+    argument_refs:
+      core: [specialised-scrutiny, executive-accountability]
+      supporting: []
+      critique: [low-referral, short-tenure, research-deficit, advisory-character]
+  - id: institutionalisation
+    label: Institutionalisation of Parliament
+    directives: [evaluate, examine]
+    argument_refs:
+      core: [burden-sharing, specialisation, financial-control]
+      supporting: []
+      critique: []
+
+concepts:
+  - id: power-of-purse
+    label: Power of the purse
+    definition: Parliament's authority to authorise, scrutinise and review public expenditure.
+    use: Financial committee questions.
+
+arguments:
+  - id: standing-ad-hoc
+    keyword: Standing and ad hoc committees
+    line: The committee system combines permanent standing bodies with issue- or Bill-specific ad hoc committees.
+    dimensions: [institutional]
+    demand_refs: [structure]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: A
+  - id: specialised-scrutiny
+    keyword: Specialised scrutiny
+    line: Detailed ministry- and subject-specific examination compensates for limited floor time and improves legislative scrutiny.
+    dimensions: [institutional, legislative]
+    demand_refs: [utility, executive-accountability, effectiveness]
+    evidence_refs: [ev-gs2-motor-vehicles-committee]
+    thinker_refs: []
+    counterpoint_refs: [low-referral]
+    priority: A
+  - id: specialisation
+    keyword: Legislative specialisation
+    line: Repeated sectoral exposure develops domain familiarity among MPs and narrows the legislature–executive information gap.
+    dimensions: [institutional]
+    demand_refs: [utility, institutionalisation]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: [short-tenure]
+    priority: A
+  - id: executive-accountability
+    keyword: Continuous executive accountability
+    line: Ministries and officials face detailed examination beyond episodic floor mechanisms, extending parliamentary oversight.
+    dimensions: [accountability, governance]
+    demand_refs: [executive-accountability, effectiveness]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: [advisory-character]
+    priority: A
+  - id: financial-control
+    keyword: Financial accountability
+    line: PAC, Estimates Committee and COPU operationalise Parliament's power of the purse through complementary scrutiny.
+    dimensions: [financial, institutional]
+    demand_refs: [financial-control, institutionalisation]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: A
+  - id: financial-committee-distinction
+    keyword: Complementary financial scrutiny
+    line: PAC examines propriety of expenditure, Estimates Committee stresses economy and efficiency, while COPU scrutinises public enterprises.
+    dimensions: [financial]
+    demand_refs: [structure, financial-control]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: A
+  - id: deliberative-space
+    keyword: Deliberative space
+    line: Smaller cross-party forums permit less adversarial and more detailed discussion than the full House.
+    dimensions: [political, deliberative]
+    demand_refs: [utility]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: A
+  - id: expert-input
+    keyword: Expert and stakeholder input
+    line: Committees can obtain specialised testimony and official evidence, making legislative examination more evidence-based.
+    dimensions: [institutional]
+    demand_refs: [utility]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: B
+  - id: burden-sharing
+    keyword: Institutional burden sharing
+    line: Delegating technical scrutiny to smaller bodies frees floor time without surrendering parliamentary oversight.
+    dimensions: [institutional]
+    demand_refs: [institutionalisation]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: B
+  - id: low-referral
+    keyword: Declining referral
+    line: When major Bills bypass committee scrutiny, Parliament loses an important stage of detailed legislative examination.
+    dimensions: [legislative]
+    demand_refs: [effectiveness]
+    evidence_refs: [ev-gs2-bill-referral-17ls]
+    thinker_refs: []
+    counterpoint_refs: [mandatory-referral]
+    priority: A
+  - id: short-tenure
+    keyword: Weak institutional memory
+    line: Short committee tenure limits continuity and accumulation of subject expertise.
+    dimensions: [institutional]
+    demand_refs: [effectiveness]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: [research-support]
+    priority: A
+  - id: research-deficit
+    keyword: Research-capacity deficit
+    line: Limited dedicated expert support constrains scrutiny of increasingly technical legislation and policy.
+    dimensions: [institutional]
+    demand_refs: [effectiveness]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: [research-support]
+    priority: A
+  - id: advisory-character
+    keyword: Advisory recommendations
+    line: Committee recommendations generally lack binding force, weakening implementation where executive follow-through is poor.
+    dimensions: [accountability]
+    demand_refs: [executive-accountability, effectiveness]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: A
+  - id: weak-follow-through
+    keyword: Weak follow-through
+    line: Insufficient floor discussion and action on committee findings may reduce their institutional influence.
+    dimensions: [institutional]
+    demand_refs: [executive-accountability]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: B
+  - id: mandatory-referral
+    keyword: Presumptive Bill referral
+    line: Significant non-urgent Bills should ordinarily undergo committee scrutiny before final passage.
+    dimensions: [reform]
+    demand_refs: [effectiveness]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: A
+  - id: research-support
+    keyword: Professional committee support
+    line: Permanent research and domain expertise can strengthen continuity, technical scrutiny and institutional memory.
+    dimensions: [reform]
+    demand_refs: [effectiveness]
+    evidence_refs: []
+    thinker_refs: []
+    counterpoint_refs: []
+    priority: A
+
+imports: []
+thinker_refs: []
+evidence_refs: [ev-gs2-motor-vehicles-committee, ev-gs2-bill-referral-17ls]
+visual_refs: [vis-gs2-parliamentary-committee-tree]
+framework_refs: [fw-institution-effectiveness]
+
+analytical_views:
+  - id: strength-limitation-repair
+    type: paired-matrix
+    title: Strength ↔ Limitation ↔ Repair
+    rows:
+      - { left: specialised-scrutiny, middle: low-referral, right: mandatory-referral }
+      - { left: specialisation, middle: short-tenure, right: research-support }
+      - { left: executive-accountability, middle: advisory-character, right: weak-follow-through }
+
+answer_shells:
+  - id: utility-financial-10m
+    title: Utility + financial committee
+    marks: [10]
+    demand_refs: [utility, financial-control]
+    sections:
+      - { label: Introduction, function: thesis }
+      - { label: Utility, argument_refs: [specialised-scrutiny, specialisation, executive-accountability, deliberative-space, expert-input] }
+      - { label: Financial dimension, argument_refs: [financial-control, financial-committee-distinction] }
+      - { label: Conclusion, function: synthesis }
+  - id: evaluate-effectiveness-15m
+    title: Evaluate committee effectiveness
+    marks: [15]
+    demand_refs: [effectiveness]
+    sections:
+      - { label: Introduction, function: thesis }
+      - { label: Contribution, argument_refs: [specialised-scrutiny, executive-accountability, specialisation, financial-control] }
+      - { label: Limitations, argument_refs: [low-referral, short-tenure, research-deficit, advisory-character] }
+      - { label: Reform, argument_refs: [mandatory-referral, research-support] }
+      - { label: Conclusion, function: synthesis }
+
+intro_anchors:
+  - Parliamentary committees act as the specialised extension of Parliament for detailed legislative and executive scrutiny.
+conclusion_anchors:
+  - Effective committees convert formal parliamentary supremacy into substantive executive accountability while complementing floor debate.
+future_variants:
+  - Declining committee referral and quality of legislation
+  - Committee system under conditions of executive dominance
+  - Professional research capacity for parliamentary scrutiny
+  - Effectiveness of non-binding committee recommendations
+
+recall:
+  summary:
+    thesis: true
+    argument_refs: [specialised-scrutiny, specialisation, executive-accountability, financial-control, deliberative-space, low-referral, research-deficit, advisory-character, mandatory-referral]
+    evidence_refs: [ev-gs2-bill-referral-17ls]
+    visual_refs: [vis-gs2-parliamentary-committee-tree]
+  prompts:
+    - id: functions-seven
+      type: generate
+      prompt: Generate seven functions of parliamentary committees.
+      targets: [specialised-scrutiny, specialisation, executive-accountability, financial-control, deliberative-space, expert-input, burden-sharing]
+    - id: financial-distinction
+      type: compare
+      prompt: Distinguish PAC, Estimates Committee and COPU.
+      targets: [financial-committee-distinction]
+    - id: evaluate-45s
+      type: pyq-outline
+      prompt: Build a 15-mark evaluation structure in 45 seconds.
+      targets: [evaluate-effectiveness-15m]
+
+deep_sections:
+  - id: detailed-classification
+    title: Detailed committee classification
+    body: Full classification, membership, tenure and procedural details required for understanding and factual repair.
+    source_refs: [src-mcf-polity-lbn]
+
+sources: [src-mcf-polity-lbn, src-mcn-polity]
+meta:
+  status: prototype-validated
+  version: 1
+  last_academic_review: 2026-09-28

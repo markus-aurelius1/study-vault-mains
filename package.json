@@ -1,0 +1,32 @@
+{
+  "name": "study-vault-mains",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "UPSC Mains answer-generation, recall and PYQ practice vault",
+  "scripts": {
+    "content": "tsx scripts/build-content.ts",
+    "content:validate": "tsx scripts/validate-content.ts",
+    "sync:pyq": "tsx scripts/sync-pyq-index.ts",
+    "dev": "npm run content && next dev",
+    "build": "npm run content && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1",
+    "yaml": "^2.8.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.6",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

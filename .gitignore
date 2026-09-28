@@ -1,0 +1,5 @@
+node_modules/
+.next/
+*.tsbuildinfo
+.content-build-tmp/
+npm-debug.log*

@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import { getManifest } from '@/lib/content/server';
+
+export default async function SyllabusPage() { const manifest = await getManifest(); return <div className="page"><div className="eyebrow">Preparation taxonomy</div><h1>Syllabus map</h1><p className="lede">Answerable Topic Nodes are smaller than broad syllabus lines and map many-to-many with PYQs.</p>{manifest.papers.map((paper) => <section className="section" key={paper.id}><h2>{paper.label}</h2>{paper.topics.length ? paper.topics.map((topic) => <Link className="paper-link" href={topic.href} key={topic.id}><span>{topic.title}</span><small>{topic.pyqCount} PYQs · {topic.demandCount} demands</small></Link>) : <p className="muted">Category plumbing reserved; no prepared Topic Node yet.</p>}</section>)}</div>; }

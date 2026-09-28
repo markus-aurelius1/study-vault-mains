@@ -499,21 +499,32 @@ interface RecallPromptState {
     | null;
 
   successes: number;
+  /** Unique day ordinals for Good/Easy ratings, most recent 12 only. */
+  successfulDays: number[];
   lapses: number;
 }
 ```
 
-Intervals:
+Stages and intervals:
 
 ```text
-D0 → D3 → D7 → D21 → D45 → D90 maintenance
+0 = D0
+1 = D3
+2 = D7
+3 = D21
+4 = D45
+5 = D90 maintenance
 ```
 
 Rating behavior:
 - Again → due tomorrow; regress one stage where possible
-- Hard → remain at stage; shortened interval
-- Good → advance one stage
-- Easy → advance two stages, capped
+- Hard → remain at the current stage; due after about half that stage's
+  normal interval, with a minimum of 1 day
+- Good → advance one stage; schedule at that stage's interval
+- Easy → advance two stages; schedule at that stage's interval, capped at D90
+
+Only Good/Easy add the current day ordinal to `successfulDays`. Days are unique
+and the array is bounded to the most recent 12 successful days.
 
 Unit-test the algorithm.
 
@@ -529,10 +540,12 @@ Do not maintain a second manual Topic due date.
 Core prompts have not all achieved successful retrieval or a recent serious lapse exists.
 
 ### Functional
-All Priority-A prompts have at least one successful Good/Easy retrieval.
+Every Priority-A prompt has at least one Good/Easy day in `successfulDays`.
 
 ### Strong
-Core prompts have at least two successful retrievals on separate dates, including one at least 7 days after initial study.
+Every Priority-A prompt has Good/Easy successes on at least two distinct days,
+including at least one successful day at least 7 days after the Topic's
+`firstStudiedAt`. Again and Hard are not successful retrievals.
 
 ## 17. ApplicationLevel derivation
 

@@ -1,0 +1,8 @@
+- id: src-mcf-polity-lbn
+  title: Polity base notes
+  type: coaching-notes
+  notes: Source identifier retained from the validated prototype.
+- id: src-mcn-polity
+  title: Polity reference notes
+  type: coaching-reference
+  notes: Source identifier retained from the validated prototype.

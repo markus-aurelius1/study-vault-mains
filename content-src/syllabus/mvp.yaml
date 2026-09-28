@@ -1,0 +1,32 @@
+- id: gs1-placeholder
+  paper: GS1
+  label: General Studies I
+  parent_id: null
+- id: gs2-polity-parliament-state-legislatures
+  paper: GS2
+  label: Parliament and State Legislatures
+  parent_id: null
+- id: gs2-governance-accountability
+  paper: GS2
+  label: Governance and accountability
+  parent_id: null
+- id: gs3-placeholder
+  paper: GS3
+  label: General Studies III
+  parent_id: null
+- id: gs4-placeholder
+  paper: GS4
+  label: General Studies IV
+  parent_id: null
+- id: essay-placeholder
+  paper: ESSAY
+  label: Essay theme modules
+  parent_id: null
+- id: soc1-placeholder
+  paper: SOC1
+  label: Sociology Paper I
+  parent_id: null
+- id: soc2-placeholder
+  paper: SOC2
+  label: Sociology Paper II
+  parent_id: null

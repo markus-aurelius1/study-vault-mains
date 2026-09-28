@@ -1,0 +1,11 @@
+- id: vis-gs2-parliamentary-committee-tree
+  title: Parliamentary committee classification
+  type: tree
+  purpose: Distinguish standing and ad hoc committees and locate the financial committees.
+  exam_version: |
+    Parliamentary Committees
+    ├─ Standing → Financial / DRSC / Other
+    └─ Ad hoc → Inquiry / Bill-specific
+  labels: [Standing, Ad hoc, Financial, DRSC]
+  draw_seconds: 25
+  use_for: [structure, financial-control]

@@ -54,17 +54,34 @@ Answer shells are retrieval structures, not model answers.
 
 ## 3. Frozen revision rules
 
-Base Recall intervals:
+Recall stages and base intervals:
 
 ```text
-D0 → D3 → D7 → D21 → D45 → D90
+0 = D0
+1 = D3
+2 = D7
+3 = D21
+4 = D45
+5 = D90
 ```
 
 Ratings:
 - Again → due tomorrow; regress where possible
-- Hard → same stage; shorter interval
-- Good → advance one stage
-- Easy → advance two stages, capped
+- Hard → same stage; about half its normal interval, minimum 1 day
+- Good → advance one stage and use that stage's interval
+- Easy → advance two stages and use that stage's interval, capped at D90
+
+Recall success history stores the most recent 12 unique successful day
+ordinals per prompt. Only Good/Easy count. Functional Recall requires one such
+day for every Priority-A prompt. Strong Recall requires two distinct successful
+days for every Priority-A prompt, including one at least 7 days after initial
+study.
+
+Application Stable requires at least one timed answer, at least two serious
+attempts in total, coverage of at least
+`min(2, numberOfDemandClusters)` distinct demands where available, and no
+unresolved high-severity recurring weakness. Outlines alone cannot make
+Application Stable.
 
 Topic due date is derived from the earliest due Priority-A prompt.
 

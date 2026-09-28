@@ -1,0 +1,27 @@
+- id: ev-gs2-motor-vehicles-committee
+  title: Motor Vehicles Bill committee scrutiny
+  type: legislative-example
+  exam_line: Committee scrutiny of major legislation can demonstrate how detailed examination improves a Bill.
+  implication: Use only to strengthen the specialised-scrutiny argument after checking the underlying committee record.
+  verification:
+    status: needs_verification
+    as_of: null
+    checked_on: null
+  sources:
+    - source_id: src-mcf-polity-lbn
+      page: null
+  tags: [parliament, committees, legislation]
+
+- id: ev-gs2-bill-referral-17ls
+  title: Bill referral during the 17th Lok Sabha
+  type: legislative-data
+  exam_line: Declining committee referral is relevant evidence when evaluating the effectiveness of legislative scrutiny.
+  implication: Supports the limitation that formal committee capacity matters only when Bills are actually referred.
+  verification:
+    status: needs_verification
+    as_of: null
+    checked_on: null
+  sources:
+    - source_id: src-mcn-polity
+      page: null
+  tags: [parliament, committees, bill-referral]

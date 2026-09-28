@@ -1,0 +1,265 @@
+{
+  "rows": [
+    {
+      "id": "gs2-polity-parliamentary-committees",
+      "kind": "topic",
+      "title": "Parliamentary Committees",
+      "text": "Parliamentary committees convert episodic floor accountability into continuous, specialised and relatively deliberative scrutiny of legislation, expenditure and administration.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees",
+      "rank": 100
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#advisory-character",
+      "kind": "argument",
+      "title": "Advisory recommendations",
+      "text": "Committee recommendations generally lack binding force, weakening implementation where executive follow-through is poor.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#deliberative-space",
+      "kind": "argument",
+      "title": "Deliberative space",
+      "text": "Smaller cross-party forums permit less adversarial and more detailed discussion than the full House.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#executive-accountability",
+      "kind": "argument",
+      "title": "Continuous executive accountability",
+      "text": "Ministries and officials face detailed examination beyond episodic floor mechanisms, extending parliamentary oversight.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#financial-committee-distinction",
+      "kind": "argument",
+      "title": "Complementary financial scrutiny",
+      "text": "PAC examines propriety of expenditure, Estimates Committee stresses economy and efficiency, while COPU scrutinises public enterprises.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#financial-control",
+      "kind": "argument",
+      "title": "Financial accountability",
+      "text": "PAC, Estimates Committee and COPU operationalise Parliament's power of the purse through complementary scrutiny.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#low-referral",
+      "kind": "argument",
+      "title": "Declining referral",
+      "text": "When major Bills bypass committee scrutiny, Parliament loses an important stage of detailed legislative examination.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#mandatory-referral",
+      "kind": "argument",
+      "title": "Presumptive Bill referral",
+      "text": "Significant non-urgent Bills should ordinarily undergo committee scrutiny before final passage.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#research-deficit",
+      "kind": "argument",
+      "title": "Research-capacity deficit",
+      "text": "Limited dedicated expert support constrains scrutiny of increasingly technical legislation and policy.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#research-support",
+      "kind": "argument",
+      "title": "Professional committee support",
+      "text": "Permanent research and domain expertise can strengthen continuity, technical scrutiny and institutional memory.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#short-tenure",
+      "kind": "argument",
+      "title": "Weak institutional memory",
+      "text": "Short committee tenure limits continuity and accumulation of subject expertise.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#specialisation",
+      "kind": "argument",
+      "title": "Legislative specialisation",
+      "text": "Repeated sectoral exposure develops domain familiarity among MPs and narrows the legislature–executive information gap.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#specialised-scrutiny",
+      "kind": "argument",
+      "title": "Specialised scrutiny",
+      "text": "Detailed ministry- and subject-specific examination compensates for limited floor time and improves legislative scrutiny.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#standing-ad-hoc",
+      "kind": "argument",
+      "title": "Standing and ad hoc committees",
+      "text": "The committee system combines permanent standing bodies with issue- or Bill-specific ad hoc committees.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 90
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#effectiveness",
+      "kind": "demand",
+      "title": "Effectiveness of committees",
+      "text": "evaluate critically-examine",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer&demand=effectiveness",
+      "rank": 80
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#executive-accountability",
+      "kind": "demand",
+      "title": "Executive accountability",
+      "text": "discuss evaluate",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer&demand=executive-accountability",
+      "rank": 80
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#financial-control",
+      "kind": "demand",
+      "title": "Financial control",
+      "text": "discuss explain",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer&demand=financial-control",
+      "rank": 80
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#institutionalisation",
+      "kind": "demand",
+      "title": "Institutionalisation of Parliament",
+      "text": "evaluate examine",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer&demand=institutionalisation",
+      "rank": 80
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#structure",
+      "kind": "demand",
+      "title": "Structure of the committee system",
+      "text": "explain",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer&demand=structure",
+      "rank": 80
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#utility",
+      "kind": "demand",
+      "title": "Why committees are useful",
+      "text": "discuss examine",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer&demand=utility",
+      "rank": 80
+    },
+    {
+      "id": "ev-gs2-bill-referral-17ls",
+      "kind": "evidence",
+      "title": "Bill referral during the 17th Lok Sabha",
+      "text": "Declining committee referral is relevant evidence when evaluating the effectiveness of legislative scrutiny. Supports the limitation that formal committee capacity matters only when Bills are actually referred.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 70
+    },
+    {
+      "id": "ev-gs2-motor-vehicles-committee",
+      "kind": "evidence",
+      "title": "Motor Vehicles Bill committee scrutiny",
+      "text": "Committee scrutiny of major legislation can demonstrate how detailed examination improves a Bill. Use only to strengthen the specialised-scrutiny argument after checking the underlying committee record.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 70
+    },
+    {
+      "id": "GS2-63",
+      "kind": "pyq",
+      "title": "2017 · 10 marks",
+      "text": "Discuss the role of Public Accounts Committee in establishing accountability of the government to the people.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=practice&pyq=GS2-63",
+      "rank": 65
+    },
+    {
+      "id": "GS2-64",
+      "kind": "pyq",
+      "title": "2018 · 10 marks",
+      "text": "Why do you think the committees are considered to be useful for parliamentary work? Discuss, in this context, the role or the Estimates Committee.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=practice&pyq=GS2-64",
+      "rank": 65
+    },
+    {
+      "id": "GS2-69",
+      "kind": "pyq",
+      "title": "2021 · 15 marks",
+      "text": "Do Department-related Parliamentary Standing Committees keep the administration on its toes and inspire reverence for parliamentary control? Evaluate the working of such committees with suitable examples.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=practice&pyq=GS2-69",
+      "rank": 65
+    },
+    {
+      "id": "GS2-73",
+      "kind": "pyq",
+      "title": "2023 · 15 marks",
+      "text": "Explain the structure of the Parliamentary Committee system. How far have the financial committees helped in the institutionalization of Indian Parliament?",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=practice&pyq=GS2-73",
+      "rank": 65
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#burden-sharing",
+      "kind": "argument",
+      "title": "Institutional burden sharing",
+      "text": "Delegating technical scrutiny to smaller bodies frees floor time without surrendering parliamentary oversight.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 60
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#expert-input",
+      "kind": "argument",
+      "title": "Expert and stakeholder input",
+      "text": "Committees can obtain specialised testimony and official evidence, making legislative examination more evidence-based.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 60
+    },
+    {
+      "id": "gs2-polity-parliamentary-committees#weak-follow-through",
+      "kind": "argument",
+      "title": "Weak follow-through",
+      "text": "Insufficient floor discussion and action on committee findings may reduce their institutional influence.",
+      "paper": "GS2",
+      "href": "/topic/gs2-polity-parliamentary-committees?mode=answer",
+      "rank": 60
+    }
+  ]
+}
